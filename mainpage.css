@@ -1,0 +1,81 @@
+body{
+    background-image: url(images/doodlejumpbg.png);
+}
+
+.logo {
+    width: 340px;
+    height: 320px;
+    content: url(images/doodlepage-removebg-preview.png);
+}
+
+#movePlay {
+    display: flex;
+    justify-content: center; /* Center the element horizontally */
+    align-items: center; /* Center the element vertically */
+    margin-left: 620px;
+
+}
+
+#playlink{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+.logoHeader {
+    padding-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    height: 120px;
+    vertical-align: middle;
+    text-align: center; 
+}
+
+.color-yb {
+    background-color: #f4b41a;
+    border: 5px solid #143d59;
+    color: #143d59;
+    font-size:  30px;
+    font-weight: bold;
+}
+
+.circle{
+    width: 180px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.center-txt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+footer{
+    bottom: 0;
+    position: absolute;
+}
+
+#scores{
+    content: url(trophy-removebg-preview.png);
+}
+
+#settings{
+   content: url(download__1_-removebg-preview.png);
+}
+
+.floatLeft { float: left; }
+
+.floatRight { float: right; }
+
+.boardposition {
+    text-align: center;
+}
+
+
+
+
+
+
